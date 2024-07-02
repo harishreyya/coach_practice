@@ -11,7 +11,7 @@ if(editIndex!==null){
   const newTodos = [...todos];
   newTodos[editIndex] = inputValue;
   setTodos(newTodos);
-  setEditIndex(null)
+  setEditIndex(null);
 }else{
   setTodos([...todos,inputValue]);
 }
