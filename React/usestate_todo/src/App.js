@@ -20,13 +20,12 @@ setInputValue('')
 
 const removeTodo = (index)=>{
   const newTodos = todos.filter((_,i)=> i!==index)
-  setTodos(newTodos)
-  
+  setTodos(newTodos);
 }
 
 const editTodo = (index)=>{
   setInputValue(todos[index])
-  setEditIndex(index)
+  setEditIndex(index);
 }
 
 
