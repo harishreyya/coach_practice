@@ -10,9 +10,6 @@ function App (){
     const fetchData = async () => {
       try {
         const response = await fetch('https://fakestoreapi.com/products');
-        if (!response.ok) {
-          console.log('Network response was not ok');
-        }
         const result = await response.json();
         setData(result);
       } catch (error) {
