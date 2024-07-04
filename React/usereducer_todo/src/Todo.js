@@ -23,6 +23,7 @@ const handleInputChange = (e)=>{
 }
 
 return <div>
+  <h1>todo using usereducer and contextapi</h1>
  <input
  placeholder='todo'
  value={inputValue}

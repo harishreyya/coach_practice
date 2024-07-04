@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
 function App (){
-
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -39,7 +38,7 @@ function App (){
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default App;

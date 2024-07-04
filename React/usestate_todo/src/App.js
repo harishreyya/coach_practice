@@ -31,6 +31,7 @@ const editTodo = (index)=>{
 
 
 return <div>
+  <h1>Todo using useState</h1>
   <input placeholder='todo' 
   value={inputValue}
   onChange={(e)=>setInputValue(e.target.value)}/>
