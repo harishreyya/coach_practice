@@ -26,7 +26,7 @@ export const Pass = ()=>{
                     <div>
                         <p>SSR</p>
                         <p>65578809</p>
-                        <p>FF NO:</p>
+                        <p>FF NO:------</p>
                     </div>
                     <div>
                         <p>CON_FROM</p>
